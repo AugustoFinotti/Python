@@ -6,6 +6,9 @@
 # 51- Escreva um programa que leia as coordenadas x e y
 # de pontos no R2 e calcule sua distância da origem (0, 0).
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Distância do ponto da origem ##############")
 print()
@@ -19,3 +22,4 @@ d = float(pow(pow(x,2) + pow(y,2), 0.5))
 
 # Output
 print("A distância entre a origem e o ponto é de: %.2f" %(d))
+os.system("pause")

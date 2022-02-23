@@ -6,6 +6,9 @@
 # 28- Faça a leitura de tres valores e apresente como resultado a soma
 # dos quadrados dos tres valores lidos. 
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Soma de 3 quadrados ##############")
 print()
@@ -23,3 +26,4 @@ soma =  v1*v1 + v2*v2 + v3*v3
 
 # Output
 print("A soma dos quadrados dos três valores apresentados é de %.2f" %(soma))
+os.system("pause")

@@ -7,6 +7,9 @@
 # A formula de conversão é: M = A * 4048.58, sendo M a area em metros quadrados
 # e A a area em acres.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de Acres para Metros Quadrados ##############")
 print()
@@ -17,4 +20,4 @@ M = A * 4048.58
 
 # Output
 print("O valor da área equivale a %.2f Metros Quadrados"%(M))
-
+os.system("pause")

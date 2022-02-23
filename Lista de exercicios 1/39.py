@@ -10,6 +10,9 @@
 #   • O terceiro receberá o restante;
 # Calcule e imprima a quantia ganha por cada um dos ganhadores.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Premiação do Concurso ##############")
 print()
@@ -28,3 +31,4 @@ p3 = p * (1.0 - (0.46 + 0.32))
 print("A quantia destinada a %s é de R$ %.2f" %(g1, p1))
 print("A quantia destinada a %s é de R$ %.2f" %(g2, p2))
 print("A quantia destinada a %s é de R$ %.2f" %(g3, p3))
+os.system("pause")

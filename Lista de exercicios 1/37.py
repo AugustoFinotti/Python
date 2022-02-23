@@ -6,6 +6,9 @@
 # 37- Faça um programa que leia o valor de um produto e imprima o valor com desconto
 # tendo em vista que o desconto foi de 12%
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Desconto de 12% ##############")
 print()
@@ -17,3 +20,4 @@ p2 = p1 * d
 
 # Output
 print("Com 12 por cento de desocnto o preço final será de %.2f $" %(p2))
+os.system("pause")

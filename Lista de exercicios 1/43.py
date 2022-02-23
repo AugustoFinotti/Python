@@ -10,6 +10,8 @@
 #   • a comissao do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto)
 #   • a comissao do vendedor, no caso da venda ser parcelada (5% sobre o valor total)
 
+# Bibliotecas
+import os
 
 # Input
 print("############## Ajuda para Vendedores ##############")
@@ -27,3 +29,4 @@ print("O valor total a pagar com 10 por cento de desconto é de: %.2f R$" %(vl_d
 print("Dividindo em 3 vezes, o valor de cada parcela será de: %.2f R$" %(vl_par))
 print("A comissão para Vendedores será de %.2f R$ nas compras com desconto" %(com_vis))
 print("A comissão para Vendedores será de %.2f R$ nas compras parceladas" %(com_par))
+os.system("pause")

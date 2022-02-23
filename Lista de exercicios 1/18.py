@@ -7,6 +7,9 @@
 # A formula de conversão é: L = 1000 * M, sendo L o volume em litros
 # e M o volume em metros cubicos. 
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de metros cúbicos para litros ##############")
 print()
@@ -17,3 +20,4 @@ L = M * 1000
 
 # Output
 print("O valor equivalente em litros é de %.2f L" %(L))
+os.system("pause")

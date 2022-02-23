@@ -8,6 +8,9 @@
 # Faça um programa que leia quanto cada apostador investiu, o valor do prêmio,
 # e imprima quanto cada um ganharia do premio com base no valor investido.
 
+# Bibliotecas
+import os
+
 # - - - - - - Input - - - - - - - 
 print()
 print("###########################################################")
@@ -36,3 +39,4 @@ print()
 print("O primeiro amigo ganharia: R$ %.2f " %(premio1))
 print("O segundo amigo ganharia: R$ %.2f " %(premio2))
 print("O terceiro amigo ganharia: R$ %.2f " %(premio3))
+os.system("pause")

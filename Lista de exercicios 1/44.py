@@ -9,6 +9,7 @@
 
 # libraries
 import math
+import os
 
 # Input
 print("############## Altura por Degraus ##############")
@@ -21,3 +22,4 @@ dgrs = math.ceil(h / h_d)
 
 # Output
 print("Então é necessário %.2f degraus para alnçar essa altura" %(dgrs))
+os.system("pause")

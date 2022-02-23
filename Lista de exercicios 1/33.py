@@ -6,6 +6,9 @@
 # 33- Leia o tamanho do lado de um quadrado
 # e imprima como resultado a sua area.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Área de um quadrado ##############")
 print()
@@ -18,3 +21,4 @@ a = l * l
 
 # Output
 print("A área de um quadrado com lado %.2f, será de %.2f" %(l, a))
+os.system("pause")

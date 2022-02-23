@@ -5,6 +5,9 @@
 
 # 5- Leia um numero real e imprima a quinta parte deste numero.
 
+# Bibliotecas
+import os
+
 # Input
 num = float(input("Digite um número: "))
 
@@ -13,3 +16,4 @@ divisao = numero/5
 
 # Output
 print ("A quinta parte desse número é: ", divisao)
+os.system("pause")

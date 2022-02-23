@@ -8,6 +8,9 @@
 # e calcule o valor da hipotenusa atraves da equação.
 # Imprima o resultado dessa operação. 
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Calculadora de Hipotenusa ##############")
 print()
@@ -26,3 +29,4 @@ h = pow( (pow(a,2)) + (pow(b,2)), 0.5 )
 
 # Output
 print("A Hipotenusa desse triângulo tem o valor de %.2f" %(h))
+os.system("pause")

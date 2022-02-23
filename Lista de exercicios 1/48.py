@@ -6,6 +6,9 @@
 # 48- Leia um valor inteiro em segundos
 # e imprima-o em horas, minutos e segundos.
 
+# Libraries
+import os
+
 # Input
 print("############## CONVERSOR DE TEMPO ##############")
 print()
@@ -20,6 +23,6 @@ h = int(m / 60) # 60 / 60
     # h 1
 s = total - (h * 3600 + mr * 60)
 
-
 # Output
 print("Esse número é quivalente a %dh %dm e %ds" %(h, mr, s))
+os.system("pause")

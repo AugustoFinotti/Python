@@ -7,6 +7,9 @@
 # A formula de conversao é: C = 5.0 ∗ (F − 32.0)/9.0, sendo C a temperatura em Celsius
 # e F a temperatura em Fahrenheit.
 
+# Bibliotecas
+import os
+
 # Input
 print("############ Conversor de Fahrenheit para Graus Celsius ############")
 print ()
@@ -17,3 +20,4 @@ C = 5.0*(F-32.0)/9.0
 
 # Output
 print("A temperatura equivalente em Graus Celsius é: %.2f Cº" %C)
+os.system("pause")

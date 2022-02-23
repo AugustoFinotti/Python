@@ -7,6 +7,9 @@
 # e número de horas trabalhadas no mes. Imprima o valor a ser pago ao funcionário,
 # adicionando 10% sobre o valor calculado.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Calculador de Salário ##############")
 print()
@@ -18,3 +21,4 @@ s = vh * ht * 1.1
 
 # Output
 print("Adicionando 10 por cento, o valor final do salário desse funcionário será de R$ %.2f " %(s))
+os.system("pause")

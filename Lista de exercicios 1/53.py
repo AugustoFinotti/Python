@@ -7,6 +7,8 @@
 # bem como o preço do metro de tela p.
 # Imprima o custo para cercar este mesmo terreno com tela.
 
+# Libraries
+import os
 
 # - - - - - - Input - - - - - - - 
 print()
@@ -29,3 +31,4 @@ custo = (c*2 + l*2) * vt
 
 # - - - - - - Output - - - - - - 
 print("Considerando essas medidas e esse preço, o cercado de tela custará R$ %.2f" %(custo))
+os.system("pause")

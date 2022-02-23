@@ -7,6 +7,9 @@
 # Gere outro numero formado pelos dígitos invertidos do numero lido.
 # Exemplo: NumeroLido = 123 NumeroGerado = 321.
 
+# Libraries
+import os
+
 # Input
 print("############## INVERSOR DE ALGARISMOS - 3 dígitos ##############")
 print()
@@ -19,3 +22,4 @@ alg3 = int(num - ((alg1 * 100) + (alg2 * 10)))
 
 # Output
 print ("%d%d%d" %( alg3, alg2, alg1))
+os.system("pause")

@@ -7,6 +7,9 @@
 # A formula de conversão é: J = M / 0.91 , sendo J o comprimento em jardas
 # e M o comprimento em metros.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de Metros para Jardas ##############")
 print()
@@ -17,3 +20,4 @@ J = M / 0.91
 
 # Output
 print("Essa distância equivale a %.2f Jardas"%(J))
+os.system("pause")

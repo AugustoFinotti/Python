@@ -7,6 +7,9 @@
 # O volume de um cilindro circular e calculado por meio da seguinte fórmula:
 # V = π ∗ raio2 ∗ altura (onde π = 3.141592).
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Área de um Cilindro ##############")
 print()
@@ -22,3 +25,4 @@ V = (pow(r,2) * pi) * h
 
 # Output
 print("O Volume do cilindro com as medidas citadas é %.2f" %(V))
+os.system("pause")

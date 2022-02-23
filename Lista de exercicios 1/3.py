@@ -5,6 +5,9 @@
 
 # 3- Pedir ao usuario para digitar 3 valores inteiros e imprimir a soma deles.
 
+# Bibliotecas
+import os
+
 # Entrada
 v1 = int(input("Digite um valor inteiro: "))
 v2 = int(input("Digite um segundo valor: "))
@@ -15,3 +18,4 @@ soma = v1+v2+v3
 
 #Saída
 print("A soma dos três valores é: ", soma)
+os.system("pause")

@@ -6,6 +6,8 @@
 # 50- Implemente um programa que calcule o ano de nascimento de uma pessoa
 # a partir de sua idade e do ano atual.
 
+# Bibliotecas
+import os
 
 # Input
 print("############## Ano de Nascimento ##############")
@@ -18,3 +20,4 @@ ano_nasc = ano_atual - idade
 
 # Output
 print("Considerando que você fez aniversário esse ano, o seu ano de nascimento é %d" %(ano_nasc))
+os.system("pause")

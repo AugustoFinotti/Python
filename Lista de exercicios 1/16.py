@@ -7,6 +7,9 @@
 # A formula de conversão é: C = P * 2.54 , sendo C o comprimento em centımetros
 # e P o comprimento em polegadas.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de polegadas para centímetros  ##############")
 print()
@@ -17,3 +20,4 @@ C = P * 2.54
 
 # Output
 print("O valor equivalente em centímetros é de %.2f cm" %(C))
+os.system("pause")

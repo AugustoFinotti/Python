@@ -7,6 +7,9 @@
 # A formula de conversão é: K = C + 273.15, sendo C a temperatura em Celsius e K a
 # temperatura em Kelvin.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de Celsius para Kelvin ##############")
 print()
@@ -17,3 +20,4 @@ K = C + 273.15
 
 # Output
 print("Essa temperatura em Kelvin será de %.2f K" %K)
+os.system("pause")

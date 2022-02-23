@@ -7,6 +7,8 @@
 # a area do círculo correspondente. A area do círculo é π ∗ raio2
 # considere π = 3.141592.
 
+# Bibliotecas
+import os
 
 # Input
 print("############## De Raio para Área do círculo ##############")
@@ -22,3 +24,4 @@ a = ((r * r) * pi)
 
 # Output
 print("A área do círculo de raio %.2f será de %.2f" %(r, a))
+os.system("pause")

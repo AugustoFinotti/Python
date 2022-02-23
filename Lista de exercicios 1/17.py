@@ -5,7 +5,10 @@
 
 # 17- Leia um valor de comprimento em centımetros e apresente-o convertido em polegadas.
 # A formula de conversão é: P = C / 2.54 , sendo C o comprimento em centımetros
-# e P o comprimento em polegadas.
+# e P o comprimento em polegadas.
+
+# Bibliotecas
+import os
 
 # Input
 print("############## Conversor de centímetros para polegadas  ##############")
@@ -17,3 +20,4 @@ P = C / 2.54
 
 # Output
 print("O valor equivalente é de %.2f polegada(s)" %(P))
+os.system("pause")

@@ -8,6 +8,9 @@
 # e imprima a quantia líquida que deverá ser paga
 # sabendo-se que sao descontados 8% para imposto de renda.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Custo do Encanador ##############")
 print()
@@ -19,3 +22,4 @@ p = 30 * d * 0.92
 # Output
 print("Considerando R$ 30 por dia de custo, %.2f dias de serviço, e 8 por cento de imposto de renda" %(d))
 print("O custo final será de R$ %.2f" %(p))
+os.system("pause")

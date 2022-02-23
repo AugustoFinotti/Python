@@ -7,6 +7,9 @@
 # (metros por segundo). A formula de conversão é: M = K/3.6, sendo K a velocidade em
 # km/h e M em m/s.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de km/h para m/s ##############")
 print()
@@ -17,3 +20,4 @@ M = K/3.6
 
 # Output
 print("A velocidade equivalente em m/s é: %.2f m/s" %(M))
+os.system("pause")

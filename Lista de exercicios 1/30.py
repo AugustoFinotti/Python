@@ -6,6 +6,9 @@
 # 30- Leia um valor em real e a cotação do dólar.
 # Em seguida, imprima o valor correspondente em dólares. 
 
+# Bibliotecas
+import os
+
 # Input
 print("$$$$$$$$$$$$$$ Conversor de Reais em Dólares $$$$$$$$$$$$$$")
 print()
@@ -17,3 +20,4 @@ dol = r / cot
 
 # Output
 print("Essa quantia em Reais é equivalente a %.2f dólares hoje" %(dol))
+os.system("pause")

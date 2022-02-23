@@ -5,6 +5,9 @@
 
 # 4- Leia um numero real e imprima o resultado do quadrado desse numero.
 
+# Bibliotecas
+import os
+
 # Entrada
 numero = float(input("Digite um número: "))
 
@@ -13,3 +16,4 @@ quadrado = numero * numero
 
 #Saída
 print ("O quadrado desse número é: ", quadrado)
+os.system("pause")

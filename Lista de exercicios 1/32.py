@@ -6,6 +6,9 @@
 # 32- Leia um numero inteiro e imprima a soma do sucessor de seu triplo
 # com o antecessor de seu dobro.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Calculador ##############")
 print()
@@ -20,3 +23,4 @@ calc = ((num * 3) + 1) + ((num * 2) -1)
 
 # Output
 print("A soma do sucessor do triplo com o antecessor do dobro desse número é:", calc)
+os.system("pause")

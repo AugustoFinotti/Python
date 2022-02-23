@@ -7,6 +7,9 @@
 # A formula de conversão é: M = K / 1,61 , sendo K a distancia em quilometros
 # e M em milhas.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de Km para Milhas ##############")
 print()
@@ -17,3 +20,4 @@ M = K/1.61
 
 # Output
 print("A distância equivalente em Milhas é de: %.2f Milhas" %(M))
+os.system("pause")

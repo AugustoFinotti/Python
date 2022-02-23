@@ -7,6 +7,8 @@
 # sabendo-se que esse funcionário tem uma gratificação de 5% sobre o salário-base.
 # Além disso ele paga 7% de imposto sobre o salario-base. 
 
+# Bibliotecas
+import os
 
 # Input
 print("############## Calculadora de Salário ##############")
@@ -21,3 +23,4 @@ sal_fin = sal_ba - sal_im + sal_gra
 # Output
 print("Considerando um imposto de 7 por cento e uma gratificação de 5 por cento")
 print("O salário a ser recebido é de R$ %.2f" %(sal_fin))
+os.system("pause")

@@ -8,6 +8,8 @@
 # O programa deve resultar com o novo horário (hora, minuto e segundo)
 # do término da mesma.
 
+# Libraries
+import os
 
 # Input
 print("############## Experiência Biológica ##############")
@@ -66,3 +68,4 @@ print("A duração da experiência será de: %d h %d m %d s" %(h_du, m_du, s_du)
 # print("A experiência acabará %d dia(s) %d h %d m %d s" %(dia, h_fin, m_fin, s_fin))
 
 print("A experiência acabará %d h %d m %d s" %(h_fin_calc, m_fin, s_fin))
+os.system("pause")

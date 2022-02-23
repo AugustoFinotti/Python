@@ -5,6 +5,9 @@
 
 # 31- Leia um numero inteiro e imprima o seu antecessor e o seu sucessor.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Antecessor e Sucessor ##############")
 print()
@@ -16,4 +19,4 @@ suc = num +1
 
 # Output
 print("O Antecessor de %d é %d e seu sucessor é %d" %(num, ant, suc))
-
+os.system("pause")

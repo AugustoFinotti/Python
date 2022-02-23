@@ -7,6 +7,9 @@
 # A formula de conversão é: L = K 0.45 , sendo K a massa em quilogramas
 # e L a massa em libras
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Coversor de Kg para Libras ##############")
 print()
@@ -17,3 +20,4 @@ L = K / 0.45
 
 # Output
 print("A massa equivalente é de: %.2f Libras" %(L))
+os.system("pause")

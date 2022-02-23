@@ -5,9 +5,10 @@
 
 # 14- Leia um angulo em graus e apresente-o convertido em radianos.
 # A formula de conversão é: R = G ∗ π/180, sendo G o angulo em graus
-# e R em radianos e π = 3.14.
+# e R em radianos e π = 3.14.
 
-# Importing Libraries
+# Libraries
+import os
 import math
 
 # Input
@@ -21,3 +22,4 @@ R = G * pi/180
 
 # Output
 print("O valor equivalente em Radianos é de: %.2f rad" %(R))
+os.system("pause")

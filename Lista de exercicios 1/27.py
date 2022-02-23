@@ -7,6 +7,9 @@
 # A formula de conversão é: M = H * 10000, sendo M a area em metros quadrados
 # e H a area em hectares.
 
+# Bibliotecas
+import os
+
 # Input
 print("############## Conversor de Hectare para Metros Quadrados ##############")
 print()
@@ -17,3 +20,4 @@ M = H * 10000
 
 # Output
 print("O valor da área é equivalente a %.2f Metros Quadrados" %(M))
+os.system("pause")
