@@ -1,9 +1,9 @@
 A, B, C = input().split()
-A = float(A)
-B = float(B)
-C = float(C)
+A = int(A)
+B = int(B)
+C = int(C)
 
-MaiorAB = (A+B+ABS*(A-B))/2
-MaiorAC = (A+C+ABS*(A-B))/2
-MaiorBC = 
-print("%d eh o maior" %Maior)
+maior = (A + B + abs(A - B))  / 2
+resultado = (maior + C + abs(maior - C))/2
+
+print("%d eh o maior" %resultado)
