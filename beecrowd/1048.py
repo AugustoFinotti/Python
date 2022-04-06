@@ -1,12 +1,12 @@
 sal_ini = float(input())
 
-if (0 < sal_ini <= 400.00):
+if (0 < sal_ini) and (sal_ini <= 400.00):
     reaj_perc = 15
-elif(400.01 <= sal_ini <= 800.00):
+elif(400.01 <= sal_ini) and (sal_ini <= 800.00):
     reaj_perc = 0.12
-elif(800.01 <= sal_ini <= 1200.00):
+elif(800.01 <= sal_ini) and (sal_ini <= 1200.00):
     reaj_perc = 10
-elif(1200.01 <= sal_ini <= 2000.00):
+elif(1200.01 <= sal_ini) and (sal_ini <= 2000.00):
     reaj_perc = 7
 else:
     reaj_perc = 4
