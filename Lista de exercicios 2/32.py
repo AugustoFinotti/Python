@@ -27,8 +27,8 @@ print("Bauru com Ovo       102     1,50 R$")
 print("Hambúrguer          103     1,20 R$")
 print("Cheeseburguer       104     1,70 R$")
 print("Suco                105     2,20 R$")
+print("Refrigerante        106     1,00 R$")
 print()
-# Refrigerante        106     1.00
 cod = int(input("Digite o código do produto desejado: "))
 quant = int(input("Digite a quantidade do produto desejado:  "))
 # Processing and Output
@@ -44,6 +44,8 @@ elif(cod==104):
     prec = 1.7
 elif(cod==105):
     prec = 1.2
+elif(cod==106):
+    prec = 1.0 
 else:
     print("Código inválido!")
 total = quant*prec
