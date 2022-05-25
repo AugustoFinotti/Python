@@ -1,21 +1,34 @@
 # FATEC Ourinhos - Programação 1 - Seg Info
 # Augusto Finotti Oliveira
 # Prof. Rogério Lazanha
-# 02/05/2022
+# 25/05/2022
 
-# 8- Escreva um programa que leia 10 numeros e escreva o menor valor lido e o maior valor lido.
+# 8- Escreva um programa que leia 10 numeros e escreva o menor valor lido
+# e o maior valor lido.
 
-maior, menor, i = 0, 0, 1
+# usando WHILE
+# i = 1
+# while(i<=10):
+#     numero = float(input("Digite um número(%d): " %(i)))
+#     if(i==1):
+#         maior = numero
+#         menor = numero
+#     elif(numero > maior):
+#         maior = numero
+#     elif(numero < menor):
+#         menor = numero
+#     i += 1
+# print("O menor é %.2f e o menor é %.2f" %(menor, maior))
 
-while(i<=10):
-    n = float(input("Digite um número inteiro: "))
-    if(n == 1):
-        maior = n
-        menor = n
-    if(n>maior):
-        maior = n
-    elif(n<menor):
-        menor = n
-    i +=1
-print("O maior valor lido foi: %.2f" %(maior))
-print("E o menor valor lido foi: %.2f" %(menor))
+# usando FOR
+for i  in range(1,11):
+    numero = float(input("Digite um número(%d): " %(i)))
+    if(i==1):
+        maior = numero
+        menor = numero
+    elif(numero > maior):
+        maior = numero
+    elif(numero < menor):
+        menor = numero
+        
+print("O menor é %.2f e o menor é %.2f" %(menor, maior))
