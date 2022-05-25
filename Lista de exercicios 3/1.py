@@ -7,10 +7,17 @@
 # considerando numeros maiores que 0.
 
 print("Exibindo os 5 primeiros números múltiplos de 3")
-num = 0
-mult = 1
-while( mult <= 5 ):
-    if(num%3 == 0) and (num != 0):
-        print(num)
-        mult += 1
-    num += 1
+
+# usando comando WHILE
+#
+# num = 0
+# mult = 1
+# while( mult <= 5 ):
+#     if(num%3 == 0) and (num != 0):
+#         print(num)
+#         mult += 1
+#     num += 1
+
+# usando comando FOR
+for x in range(3, 16, 3):
+    print(x)
